@@ -9,9 +9,7 @@ form {
     height: 100vh;
    
 }
-h1{
-    color: #2980b9;
-}
+
 .conteudo-text{
     display: flex;
     flex-direction: column;
@@ -62,8 +60,8 @@ h1{
 .form-container button {
     width: 100%;
     padding: 0.75em;
-    background-color: #3498db;
-    border: none;
+    background-color: #ECB159;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1em;
     color: #fff;
@@ -72,7 +70,7 @@ h1{
 }
 
 .form-container button:hover {
-    background-color: #04AA6D;
+    background-color: #B67352;
 }
 footer{
     display: flex;
@@ -80,7 +78,7 @@ footer{
 }
 
 .btn-contato{
-    background-color: #04AA6D;
+    background-color: #ECB159;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -95,6 +93,6 @@ footer{
     
 }
 .btn-contato:hover{
-background-color: #04AA6D ; 
+background-color: #B67352 ; 
     
 }

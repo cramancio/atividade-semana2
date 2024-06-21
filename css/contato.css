@@ -9,9 +9,7 @@ form {
     height: 100vh;
    
 }
-h1{
-    color: #2980b9;
-}
+
 .conteudo-text{
     display: flex;
     flex-direction: column;
@@ -62,8 +60,8 @@ h1{
 .form-container button {
     width: 100%;
     padding: 0.75em;
-    background-color: #3498db;
-    border: none;
+    background-color: #ECB159;
+    border: 1px solid white;
     border-radius: 5px;
     font-size: 1em;
     color: #fff;
@@ -72,9 +70,29 @@ h1{
 }
 
 .form-container button:hover {
-    background-color: #2980b9;
+    background-color: #B67352;
 }
 footer{
     display: flex;
     justify-content: space-between;
+}
+
+.btn-contato{
+    background-color: #ECB159;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn-contato:hover{
+background-color: #B67352 ; 
+    
 }

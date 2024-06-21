@@ -36,6 +36,7 @@ main section {
 header {
   background-color: #ECB159;
   border: solid 2px #B67352;
+  z-index: 9999;
   box-sizing: border-box;
   width: 78%;
   height: 8rem;

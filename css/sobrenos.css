@@ -1,7 +1,13 @@
 .sobrenos{
-  background-color: #bfd6d8;
+  background-color: #dbe7e8;
   display: flex;
   border: 5px solid #8CB9BD;
+}
+p{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #040505;
+
 }
 .sobrenos img {
   width: 90%;
@@ -24,7 +30,7 @@
 }
 
 .sobrenos-txt li {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: #213c3f;
   margin-bottom: 2rem;
@@ -44,13 +50,13 @@
 .nossamissao-txt span {
   font-weight: 700;
   color: #ffffff;
-  background-color: #0000001a;
+  background-color: #B67352;
   padding: 1rem;
   border-radius: 1.6rem;
   text-align: center;
   display: block;
   margin-top: 1rem;
-  border: 1px solid #B67352;
+  border: 1px solid #8CB9BD;
   width: 50rem;
   
 }
@@ -80,4 +86,32 @@
   gap: 2rem;
   width: 100%;
   padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .sobrenos {
+    flex-direction: column;
+  }
+  .sobrenos img {
+    width: 100%;
+    height: 50%;
+  }
+  .sobrenos-txt {
+    padding: 1rem;
+  }
+  .sobrenos-txt ul {
+    margin-left: 0;
+  }
+  .sobrenos-txt li {
+    font-size: 1.6rem;
+  }
+  .sobrenos-txt li::before {
+    font-size: 1.8rem;
+  }
+  .nossamissao-txt span {
+    width: 100%;
+  }
+  .span-box {
+    padding: 1rem;
+  }
 }

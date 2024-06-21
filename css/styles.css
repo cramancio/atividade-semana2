@@ -16,9 +16,10 @@ body {
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
     gap: 2rem;
 }
+
+
 .servicos h2{
     color: #B67352;
     font-size: 3rem;
@@ -101,25 +102,6 @@ align-items: center;
     margin-top: 9rem;
 }
 
-footer{
-    background-color:  #8CB9BD;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
-
-  
-}
-footer section{
-
-    background-color: transparent;
-}
-
 #header{
 display: flex;
 flex-direction: column;
@@ -131,8 +113,7 @@ align-items: center;
     color: white;
     font-weight: 700;
     font-family: "Playwrite US Modern", cursive;
-    
-    
+        
 }
 
 
@@ -145,7 +126,9 @@ h1{
   font-weight: 700;
   font-family: "Playwrite US Modern", cursive;
 }
-    h2{
+
+
+h2{
     font-size: 3rem;
     color: #B67352;
     font-weight: 700;

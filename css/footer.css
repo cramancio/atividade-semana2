@@ -8,12 +8,26 @@
 /* para mobile-first*/
 footer{
     background-color: #8CB9BD;
-    width: 100%;
-    height: 10%;
-    padding: 50px 20px;
+    width: 100vw;
+    height: 400px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 80px;
+    width: 80px;
 }
 
 footer a {
@@ -21,15 +35,12 @@ footer a {
     color: black;
 }
 
-.footer-logo {
-    padding-bottom: 20px;
-    width: 20%;
-}
-
 .contato {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+
 }
 
 footer .contato img {
@@ -38,12 +49,18 @@ footer .contato img {
 
 footer .contato article {
     display: flex;
-    padding: 16px;
+    padding: 5px;
     align-items: center;
     gap: 8px;
     text-align: center;
 }
 
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 footer .redes img {
-    height: 50px;
+    height: 40px;
 }

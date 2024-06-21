@@ -70,6 +70,11 @@ body {
   margin: 15px;
 }
 
+.servicos a:hover {
+  background-color: #B67352;
+}
+
+
 .casoEmergencia h2 {
   color: #fff;
   background-color: #B67352;

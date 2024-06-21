@@ -59,7 +59,7 @@ html{
 }
 #banner{   
   background-color: #8CB9BD;
-  width: 100vw;
+  width: 100%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
   height: 40rem;
   display: flex;
@@ -68,6 +68,25 @@ align-items: center;
  padding: 10rem;
     gap: 6rem;
     margin-top: 9rem;
+}
+
+footer{
+    background-color:  #8CB9BD;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+
+  
+}
+footer section{
+
+    background-color: transparent;
 }
 
 #header{

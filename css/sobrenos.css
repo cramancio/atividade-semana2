@@ -1,6 +1,7 @@
 .sobrenos{
-  background-color: #0000001a;
+  background-color: #bfd6d8;
   display: flex;
+  border: 5px solid #8CB9BD;
 }
 .sobrenos img {
   width: 90%;
@@ -40,7 +41,7 @@
   line-height: 1.8rem;
 }
 
-.nossamissao-txt p strong {
+.nossamissao-txt span {
   font-weight: 700;
   color: #ffffff;
   background-color: #0000001a;
@@ -50,6 +51,7 @@
   display: block;
   margin-top: 1rem;
   border: 1px solid #B67352;
+  width: 50rem;
   
 }
 
@@ -60,11 +62,6 @@
   font-weight: 700;
 }
 
-.nossamissao-txt h2{
-
-  font-size: 2.2rem;
-text-align: center;
-}
 
 .nossamissao-txt {
   display: flex;
@@ -74,4 +71,13 @@ text-align: center;
   width: 100%;
   padding: 2rem;
 
+}
+.span-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem;
 }

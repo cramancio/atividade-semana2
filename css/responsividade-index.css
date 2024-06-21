@@ -65,5 +65,39 @@
         width: 100%;
         height: auto;
     }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    #bannerimg {
+        display: none;
+    }
+
+    header{
+        width: 100%;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .nav-bar{
+        gap: 3rem;
+    }
+
+    .bem-vindo p, h2{
+        text-align: center;
+    }
+
+    .bem-vindo h2{
+        font-size: 2.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .casoEmergencia h2 {
+        font-size:2rem;
+    }
+
+    .casoEmergencia p {
+        font-size:2rem;
+    }
 
 }

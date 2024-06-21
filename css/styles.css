@@ -4,12 +4,195 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: -webkit-linear-gradient(265deg, #FEFBF6, #8CB9BD);
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
 }
 
+main {
+  width: 80vw;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto 65px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 16px;
+}
+
+main section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1.6rem;
+}
+
+/*---NAVEGAÇÃO----------------------------------------*/
+header {
+  background-color: #ECB159;
+  border: solid 2px #B67352;
+  box-sizing: border-box;
+  width: 78%;
+  height: 8rem;
+  margin-top: -42rem;
+  border-radius: 0 0 1.6rem 1.6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 4rem;
+  position: fixed;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 4rem;
+  font-size: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Playwrite AU VIC", cursive;
+}
+
+.nav-bar a:hover {
+  color: #B67352;
+}
+
+.logo-header p {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Playwrite US Modern", cursive;
+}
+
+#cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---BANNER----------------------------------------*/
+#banner {
+  background-color: #8CB9BD;
+  width: 100%;
+  box-shadow: 20px 10px 20px 20px rgba(2, 71, 128, 0.2);
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  gap: 6rem;
+  margin-top: 9rem;
+}
+
+#bannertext {
+  width: 50rem;
+  background-color: rgba(10, 23, 55, 0.2);
+  padding: 2rem;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  animation: downtop 2000ms;
+}
+
+#bannertext p {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+#bannerimg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4rem;
+}
+
+#banner img:first-child {
+  margin-top: -4rem;
+  animation: topdown 2000ms;
+}
+
+#banner img:nth-child(2) {
+  animation: downtop 2000ms;
+}
+
+#banner img:last-child {
+  margin-top: 4rem;
+  animation: topdown 2000ms;
+}
+
+#banner img {
+  border-radius: 1.6rem;
+  width: 20rem;
+  box-shadow: 20px -16px rgba(10, 23, 55, 0.2);
+  height: 30rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5rem;
+  align-items: center;
+}
+
+/*---ANIMAÇÃO DO BANNER------------------------*/
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-75px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(75px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ---TÍTULOS H-------------------------------------- */
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Playwrite US Modern", cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #B67352;
+  font-weight: 700;
+  font-family: "Playwrite US Modern", cursive;
+}
+
+/*---CARDS DOS SERVIÇOS NA HOME-------------------------------*/
 .servicos-box {
   background-color: transparent;
   display: flex;
@@ -19,7 +202,6 @@ body {
   box-sizing: border-box;
   gap: 2rem;
 }
-
 
 .servicos h2 {
   color: #B67352;
@@ -74,7 +256,7 @@ body {
   background-color: #B67352;
 }
 
-
+/*---FAIXA DA EMERGÊNCIA------------------------------*/
 .casoEmergencia h2 {
   color: #fff;
   background-color: #B67352;
@@ -89,7 +271,6 @@ body {
 
 .casoEmergencia {
   background-color: #B67352;
-  ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,6 +280,7 @@ body {
   box-shadow: 0 0 10px 0 rgba(225, 32, 32, 0.1);
 }
 
+/*---GALERIA DE FOTOS------------------------------------*/
 .galeria h2 {
   text-align: center;
   padding-bottom: 20px;
@@ -118,197 +300,4 @@ body {
   height: 250px;
   width: auto;
   border-radius: 10px;
-}
-
-main {
-  width: 80vw;
-  padding: 20px 20px 20px 20px;
-  margin: 0 auto 65px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
-  border-radius: 16px;
-}
-
-main section {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 1.6rem;
-}
-
-
-html {
-  font-size: 62.5%;
-
-}
-
-#banner {
-  background-color: #8CB9BD;
-  width: 100%;
-  box-shadow: 20px 10px 20px 20px rgba(2, 71, 128, 0.2);
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10rem;
-  gap: 6rem;
-  margin-top: 9rem;
-}
-
-#header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo p {
-  font-size: 2rem;
-  color: white;
-  font-weight: 700;
-  font-family: "Playwrite US Modern", cursive;
-
-}
-
-
-
-h1 {
-  font-size: 4rem;
-  letter-spacing: 0.5rem;
-  color: #fff;
-  text-align: center;
-  font-weight: 700;
-  font-family: "Playwrite US Modern", cursive;
-}
-
-
-h2 {
-  font-size: 3rem;
-  color: #B67352;
-  font-weight: 700;
-  font-family: "Playwrite US Modern", cursive;
-}
-
-#bannertext {
-  width: 50rem;
-  background-color: rgba(10, 23, 55, 0.2);
-  padding: 2rem;
-  border-radius: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  animation: downtop 2000ms;
-
-}
-
-#bannertext p {
-  font-size: 2.5rem;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-
-}
-
-#bannerimg {
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 4rem;
-}
-
-#banner img:first-child {
-  margin-top: -4rem;
-  animation: topdown 2000ms;
-
-}
-
-#banner img:nth-child(2) {
-
-  animation: downtop 2000ms;
-
-}
-
-#banner img:last-child {
-  margin-top: 4rem;
-  animation: topdown 2000ms;
-
-}
-
-#banner img {
-  border-radius: 1.6rem;
-  width: 20rem;
-  box-shadow: 20px -16px rgba(10, 23, 55, 0.2);
-
-  height: 30rem;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 0.5rem;
-  align-items: center;
-}
-
-
-@keyframes topdown {
-  0% {
-    opacity: 0;
-    transform: translateY(-75px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes downtop {
-  0% {
-    opacity: 0;
-    transform: translateY(75px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-header {
-  background-color: #ECB159;
-  border: solid 2px #B67352;
-  box-sizing: border-box;
-  width: 78%;
-  height: 8rem;
-  margin-top: -42rem;
-  border-radius: 0 0 1.6rem 1.6rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 0 4rem;
-  position: fixed;
-
-
-}
-
-.nav-bar {
-  display: flex;
-  gap: 4rem;
-  font-size: 2rem;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 700;
-  font-family: "Playwrite AU VIC", cursive;
-}
-
-.nav-bar a:hover {
-  color: #B67352;
 }

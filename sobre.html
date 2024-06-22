@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu-mobile.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/sobrenos.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -23,13 +24,22 @@
     <div id="cabecalho">
         <header>
             <div class="logo">
-                <a href="/"><img  src="./img/logo.png" alt="Logo da Pet Coders" width="80px"></a>
-            <p>Pet Coders</p></div>
+                <a href="/"><img src="./img/logo.png" alt="Logo da Pet Coders" width="80px"></a>
+                <p>Pet Coders</p>
+            </div>
             <nav class="nav-bar">
-                <a href="/">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="servicos.html">Serviços</a>
-                <a href="contato.html">Contato</a>
+                <input type="checkbox" id="menu-mobile">
+                <label for="menu-mobile" class="icone-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-bar">
+                    <a href="/">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html">Contato</a>
+                </ul>
             </nav>
         </header>
    

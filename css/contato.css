@@ -96,3 +96,57 @@ footer{
 background-color: #B67352 ; 
     
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 320px) {
+    .conteudo-container{
+        display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .conteudo-text{
+        width: 100%;
+    }
+}
+
+ 
+@media (min-width: 321px) and (max-width: 375px) {
+    .conteudo-container{
+        display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .conteudo-text{
+        width: 100%;
+    }
+}
+  
+ 
+@media (min-width: 376px) and (max-width: 425px) {
+    .conteudo-container{
+        display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .conteudo-text{
+        width: 100%;
+    }
+}
+  
+ 
+@media (min-width: 426px) and (max-width: 768px) {
+    .conteudo-container{
+        display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .conteudo-text{
+        width: 100%;
+    }
+}
+  
+ 
+@media (min-width: 769px) {
+   
+
+}

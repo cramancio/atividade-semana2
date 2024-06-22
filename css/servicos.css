@@ -110,3 +110,138 @@ background-color: #B67352 ;
 .inf-item:hover{
     background-color: rgba(17, 17, 17, 0.171);
 }
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 320px) {
+    .item-texto-hospedar{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 2em;
+        }
+    }
+    .petsitter-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-texto-petsitter{
+        h1{
+            font-size: 1.5em;
+        }
+    }
+    .servicos-inf{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.5em;
+        }
+        
+    }
+    .servicos-inf-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+ 
+@media (min-width: 321px) and (max-width: 375px) {
+    .item-texto-hospedar{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 2em;
+        }
+    }
+    .petsitter-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-texto-petsitter{
+        h1{
+            font-size: 1.5em;
+        }
+    }
+    .servicos-inf{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.5em;
+        }
+        
+    }
+    .servicos-inf-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
+ 
+@media (min-width: 376px) and (max-width: 425px) {
+    .item-texto-hospedar{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 2em;
+        }
+    }
+    .petsitter-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-texto-petsitter{
+        h1{
+            font-size: 1.5em;
+        }
+    }
+    .servicos-inf{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.5em;
+        }
+        
+    }
+    .servicos-inf-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
+ 
+@media (min-width: 426px) and (max-width: 768px) {
+    .item-texto-hospedar{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 2em;
+        }
+    }
+    .petsitter-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-texto-petsitter{
+        h1{
+            font-size: 1.5em;
+        }
+    }
+    .servicos-inf{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1.5em;
+        }
+        
+    }
+    .servicos-inf-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
+ 
+@media (min-width: 769px) {
+   
+
+}

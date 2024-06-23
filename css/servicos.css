@@ -10,6 +10,11 @@
     align-items: center;
     justify-content: center;
 }
+
+item-texto-hospedar h2{
+    color: #B67352;
+    font-size: 3rem;
+}
 .item-img-hosp{
     display: flex;
     width: 80%;

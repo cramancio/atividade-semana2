@@ -84,10 +84,7 @@ form {
 .form-container button:hover {
     background-color: #B67352;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .btn-contato{
     background-color: #ECB159;

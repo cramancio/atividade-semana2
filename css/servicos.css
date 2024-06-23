@@ -17,7 +17,7 @@ item-texto-hospedar h2{
 }
 .item-img-hosp{
     display: flex;
-    width: 80%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     margin-top: 80px;
@@ -34,10 +34,7 @@ item-texto-hospedar h2{
     width: 50%;
     margin-top: 80px;
     text-align: center;
-    h1{
-        color: #B67352;
     }
-}
 
 .petsitter-container{
     display: flex;
@@ -69,9 +66,7 @@ item-texto-hospedar h2{
     align-items: center;
     align-items: center;
     justify-content: center;
-    h1{
-        color: #B67352;
-    }
+  
 }
 .btn-servicos{
     background-color: #ECB159;
@@ -82,12 +77,13 @@ item-texto-hospedar h2{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
+    border: 2px solid #B67352;
     margin-top: 20px;
     border-radius: 20px;
     cursor: pointer;
     
 }
+
 .btn-servicos:hover{
 background-color: #B67352 ; 
     
@@ -109,6 +105,7 @@ background-color: #B67352 ;
 }
 .inf-item{
     border: 1px solid #ECB159 ;
+    padding: 4rem;
     background-color: rgba(0, 0, 0, 0.055);
 }
 .inf-item:hover{
@@ -121,7 +118,7 @@ background-color: #B67352 ;
     #bannerimg {
         display: none;
     }
-
+   
     .item-texto-hospedar{
         display: flex;
         flex-direction: column;
@@ -142,22 +139,20 @@ background-color: #B67352 ;
     .servicos-inf{
         display: flex;
         flex-direction: column;
+
         h2{
             font-size: 1.5em;
         }
         
     }
+    .item-img-hosp img{
+        width: 300px;
+    }
     .servicos-inf-item{
         display: flex;
         flex-wrap: wrap;
     }
-    .item-img-hosp img{
-        height: auto;
-    }
-    .item-img-hosp {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  
     .item-img-petsitter {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -208,10 +203,13 @@ background-color: #B67352 ;
     }
     .item-img-hosp img{
         height: auto;
+        width: 25rem;
     }
     .item-img-hosp {
         margin-top: 40px;
         margin-bottom: 40px;
+     
+
     }
     .item-img-petsitter {
         margin-top: 20px;
@@ -262,6 +260,7 @@ background-color: #B67352 ;
     }
     .item-img-hosp img{
         height: auto;
+        width: 25rem;
     }
     .item-img-hosp {
         margin-top: 40px;
@@ -317,6 +316,7 @@ background-color: #B67352 ;
     }
     .item-img-hosp img{
         height: auto;
+        width: 25rem;
     }
     .item-img-hosp {
         margin-top: 40px;

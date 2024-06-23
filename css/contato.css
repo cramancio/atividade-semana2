@@ -60,6 +60,17 @@ form {
     color: #555;
 }
 
+.form-container textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    transition: border-color 0.3s;
+    font-family: "Lato", sans-serif;
+}
+
 .form-container input {
     width: 100%;
     padding: 0.75em;
